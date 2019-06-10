@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.ExtentReportListener.ExtendReport"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.ScreenerOutboxPageTest">
+        <methods>
+          <include name="ApproveRequestOrder"/>
+          <include name="EditTheOrder"/>
+          <include name="logout"/>
+          <include name="setUp"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ScreenerOutboxPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

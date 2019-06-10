@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="902754" started-at="2019-06-10T13:18:22Z" finished-at="2019-06-10T13:33:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="902754" started-at="2019-06-10T13:18:22Z" finished-at="2019-06-10T13:33:25Z">
+      <class name="com.crm.qa.testcases.ScreenerInboxPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerInboxPageTest@7d9d1a19]" name="setUp" is-config="true" duration-ms="63784" started-at="2019-06-10T18:53:08Z" finished-at="2019-06-10T18:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RequestExtension()[pri:0, instance:com.crm.qa.testcases.ScreenerInboxPageTest@7d9d1a19]" name="RequestExtension" duration-ms="16758" started-at="2019-06-10T18:54:12Z" finished-at="2019-06-10T18:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestExtension -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.ScreenerInboxPageTest@7d9d1a19]" name="Logout" is-config="true" duration-ms="1125" started-at="2019-06-10T18:54:29Z" finished-at="2019-06-10T18:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.crm.qa.testcases.ScreenerInboxPageTest -->
+      <class name="com.crm.qa.testcases.ScreenerOutboxPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="78373" started-at="2019-06-10T18:56:10Z" finished-at="2019-06-10T18:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ApproveRequestOrder()[pri:1, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="ApproveRequestOrder" duration-ms="106339" started-at="2019-06-10T18:57:28Z" finished-at="2019-06-10T18:59:15Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'PFTBLR-LT-142', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\NAGESH~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: f5507be9aff22d2a038004c7a28935cc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'PFTBLR-LT-142', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\NAGESH~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: f5507be9aff22d2a038004c7a28935cc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerOutboxPage.ApprovalOrder(ScreenerOutboxPage.java:102)
+	at com.crm.qa.testcases.ScreenerOutboxPageTest.ApproveRequestOrder(ScreenerOutboxPageTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveRequestOrder -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="Logout" is-config="true" duration-ms="2516" started-at="2019-06-10T18:59:15Z" finished-at="2019-06-10T18:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="68796" started-at="2019-06-10T18:59:17Z" finished-at="2019-06-10T19:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="EditTheOrder()[pri:2, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="EditTheOrder" duration-ms="13695" started-at="2019-06-10T19:00:26Z" finished-at="2019-06-10T19:00:40Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="action-label style-scope pft-screeneroutbox">...</span> is not clickable at point (1133, 182). Other element would receive the click: <div id="globalWaiting" class="waiting" style="display: block;">...</div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'PFTBLR-LT-142', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\NAGESH~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: aa379a9e4b76e9690d6ec26b20722bda]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="action-label style-scope pft-screeneroutbox">...</span> is not clickable at point (1133, 182). Other element would receive the click: <div id="globalWaiting" class="waiting" style="display: block;">...</div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'PFTBLR-LT-142', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\NAGESH~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: aa379a9e4b76e9690d6ec26b20722bda
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.crm.qa.pages.ScreenerOutboxPage.Editorder(ScreenerOutboxPage.java:111)
+	at com.crm.qa.testcases.ScreenerOutboxPageTest.EditTheOrder(ScreenerOutboxPageTest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditTheOrder -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="Logout" is-config="true" duration-ms="1289" started-at="2019-06-10T19:00:40Z" finished-at="2019-06-10T19:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="67715" started-at="2019-06-10T19:00:41Z" finished-at="2019-06-10T19:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ManualExpiry()[pri:3, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="ManualExpiry" duration-ms="20719" started-at="2019-06-10T19:01:49Z" finished-at="2019-06-10T19:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManualExpiry -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="Logout" is-config="true" duration-ms="995" started-at="2019-06-10T19:02:10Z" finished-at="2019-06-10T19:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="57884" started-at="2019-06-10T19:02:11Z" finished-at="2019-06-10T19:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DeletePublishOrder()[pri:4, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="DeletePublishOrder" duration-ms="14971" started-at="2019-06-10T19:03:08Z" finished-at="2019-06-10T19:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePublishOrder -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="Logout" is-config="true" duration-ms="1162" started-at="2019-06-10T19:03:23Z" finished-at="2019-06-10T19:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.qa.testcases.ScreenerOutboxPageTest@39c0f4a]" name="logout" is-config="true" duration-ms="0" started-at="2019-06-10T19:03:25Z" finished-at="2019-06-10T19:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.crm.qa.testcases.ScreenerOutboxPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="SanityStart()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6d4b1c02]" name="SanityStart" is-config="true" duration-ms="12" started-at="2019-06-10T18:48:22Z" finished-at="2019-06-10T18:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SanityStart -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="43696" started-at="2019-06-10T18:48:22Z" finished-at="2019-06-10T18:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VaildateUserLogin()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6d4b1c02]" name="VaildateUserLogin" duration-ms="26098" started-at="2019-06-10T18:49:06Z" finished-at="2019-06-10T18:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaildateUserLogin -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6d4b1c02]" name="Logout" is-config="true" duration-ms="1509" started-at="2019-06-10T18:49:32Z" finished-at="2019-06-10T18:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ScreenerPublisherPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerPublisherPageTest@4883b407]" name="setUp" is-config="true" duration-ms="62688" started-at="2019-06-10T18:51:50Z" finished-at="2019-06-10T18:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InternalPublish()[pri:0, instance:com.crm.qa.testcases.ScreenerPublisherPageTest@4883b407]" name="InternalPublish" duration-ms="15364" started-at="2019-06-10T18:52:53Z" finished-at="2019-06-10T18:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternalPublish -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ScreenerPublisherPageTest@4883b407]" name="setUp" is-config="true" duration-ms="75626" started-at="2019-06-10T18:54:30Z" finished-at="2019-06-10T18:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ExternalPublish()[pri:1, instance:com.crm.qa.testcases.ScreenerPublisherPageTest@4883b407]" name="ExternalPublish" duration-ms="24825" started-at="2019-06-10T18:55:45Z" finished-at="2019-06-10T18:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExternalPublish -->
+      </class> <!-- com.crm.qa.testcases.ScreenerPublisherPageTest -->
+      <class name="com.crm.qa.testcases.HomepageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomepageTest@6093dd95]" name="setUp" is-config="true" duration-ms="57668" started-at="2019-06-10T18:49:33Z" finished-at="2019-06-10T18:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="NavigateToLibraryPage()[pri:0, instance:com.crm.qa.testcases.HomepageTest@6093dd95]" name="NavigateToLibraryPage" duration-ms="5217" started-at="2019-06-10T18:50:31Z" finished-at="2019-06-10T18:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToLibraryPage -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.crm.qa.testcases.HomepageTest@6093dd95]" name="Logout" is-config="true" duration-ms="1057" started-at="2019-06-10T18:50:36Z" finished-at="2019-06-10T18:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.crm.qa.testcases.HomepageTest -->
+      <class name="com.crm.qa.testcases.LibraryPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LibraryPageTest@5622fdf]" name="setUp" is-config="true" duration-ms="55574" started-at="2019-06-10T18:50:37Z" finished-at="2019-06-10T18:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LaunchTheScreenerWindow()[pri:0, instance:com.crm.qa.testcases.LibraryPageTest@5622fdf]" name="LaunchTheScreenerWindow" duration-ms="17217" started-at="2019-06-10T18:51:33Z" finished-at="2019-06-10T18:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheScreenerWindow -->
+      </class> <!-- com.crm.qa.testcases.LibraryPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
