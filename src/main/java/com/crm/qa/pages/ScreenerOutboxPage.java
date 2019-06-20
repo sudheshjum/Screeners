@@ -63,7 +63,6 @@ public class ScreenerOutboxPage extends TestBase {
 //	@FindBy(xpath="//*[@id='browseBinThumb_9001-306691']")
 //	WebElement Edit_VideoFile;
 	
-	
 
 	@FindBy(id="binV2")
 	WebElement Edit_Binarea;

@@ -27,7 +27,7 @@ public class TestBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\nagesh.shantharaju\\workspace\\com.pft.ScreenerSanity\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("./Config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -56,7 +56,7 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
-		driver.get(prop.getProperty("Url"));
+		driver.get(prop.getProperty("URL"));
 		//driver.get("https://demo-poc.oneclear.com/BC/Product/Modules/SignIn.aspx");
 		
 		driver.findElement(By.linkText("Click Here")).click();
