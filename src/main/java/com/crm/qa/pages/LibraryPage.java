@@ -26,6 +26,12 @@ public class LibraryPage extends TestBase{
 	@FindBy(xpath="//*[@id='browseThumb_5051-246083']")
 	WebElement ImageFile;
 	
+//	@FindBy(xpath="//*[@id='browseThumb_9001-297236']")
+//	WebElement VideoFile;
+//	
+//	@FindBy(xpath="//*[@id='browseThumb_9001-308308']")
+//	WebElement ImageFile;
+	
 	@FindBy(xpath="//*[@class='Bin']")
 	WebElement Binarea;
 	
@@ -68,6 +74,10 @@ public class LibraryPage extends TestBase{
 		 Actions b = new Actions(driver);
 		 b.dragAndDrop(ImageFile, Binarea).build().perform();
 		 
+	 }
+	 public void ClickonBin()
+	 {
+		 Binicon.click();
 	 }
 	 
 	 public ScreenerPublisherPage ClickOnScreenericon()

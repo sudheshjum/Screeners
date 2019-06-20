@@ -43,7 +43,6 @@ public class LibraryPageTest extends TestBase {
 		libraryPage.DragandDropVideoAsset(prop.getProperty("VideoFile"));
 		libraryPage.DragandDropImageAsset(prop.getProperty("ImageFile"));
 		ScreenerPublisherPage = libraryPage.ClickOnScreenericon();
-
 	}
 //	@AfterMethod
 //	public void Logout() {

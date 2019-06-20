@@ -56,6 +56,12 @@ public class ScreenerInboxPageTest extends TestBase{
 		Thread.sleep(5000);
 		ScreenerInboxpage.RequestExtenion(prop.getProperty("RequestExternsionComment"));
 	}
+    @Test(priority=1)
+    public void EditExtension() throws InterruptedException
+    {
+    	Thread.sleep(4000);
+    	ScreenerInboxpage.EditRequest(prop.getProperty("EditExternsionComment"));    	
+    }
 	@AfterMethod
 	public void Logout() {
 		driver.quit();

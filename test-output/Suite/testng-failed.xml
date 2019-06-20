@@ -6,15 +6,24 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ScreenerOutboxPageTest">
+      <class name="com.crm.qa.testcases.SanityScreenerTest">
         <methods>
-          <include name="ApproveRequestOrder"/>
-          <include name="EditTheOrder"/>
+          <include name="DragandDropTheAssets"/>
+          <include name="VaildateUserLogin"/>
+          <include name="ExternalPublish"/>
           <include name="logout"/>
-          <include name="setUp"/>
-          <include name="Logout"/>
+          <include name="NavigateToLibraryPage"/>
+          <include name="ManualExpiry"/>
+          <include name="Login"/>
+          <include name="ApproveRequestOrder"/>
+          <include name="DeletePublishOrder"/>
+          <include name="EditExtension"/>
+          <include name="EditTheOrder"/>
+          <include name="SanityStart"/>
+          <include name="InternalPublish"/>
+          <include name="RequestExtension"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ScreenerOutboxPageTest -->
+      </class> <!-- com.crm.qa.testcases.SanityScreenerTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

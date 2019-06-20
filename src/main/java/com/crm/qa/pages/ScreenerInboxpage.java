@@ -24,10 +24,15 @@ public class ScreenerInboxpage extends TestBase {
 	
 	@FindBy(xpath="//*[@id='requestorCommentsInbox']")
 	WebElement RequestCommentBox;
+	
+	@FindBy(xpath="//*[contains(@id,'editRequestExtension')]")
+	WebElement EditRequestExtension;	
 
 	@FindBy(id ="dvSubmit")
 	WebElement Submitbutton;
 	
+	@FindBy(id="dvUpdate")
+	WebElement Updatebutton;
 	
 	public ScreenerInboxpage()
 	{
@@ -54,6 +59,15 @@ public class ScreenerInboxpage extends TestBase {
 		RequestCommentBox.click();
 		RequestCommentBox.sendKeys(RequestComment ,Keys.ENTER);
 		Submitbutton.click();
+	}
+	public void EditRequest(String EditComment) throws InterruptedException
+	{
+		EditRequestExtension.click();
+		RequestCommentBox.click();
+		Thread.sleep(3000);
+		RequestCommentBox.sendKeys(EditComment , Keys.ENTER);
+		Thread.sleep(3000);
+		Updatebutton.click();				
 	}
 
 

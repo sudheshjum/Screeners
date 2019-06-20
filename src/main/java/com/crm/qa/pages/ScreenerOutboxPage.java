@@ -59,6 +59,11 @@ public class ScreenerOutboxPage extends TestBase {
 	
 	@FindBy(xpath="//*[@id='browseBinThumb_5051-246078']")
 	WebElement Edit_VideoFile;
+	
+//	@FindBy(xpath="//*[@id='browseBinThumb_9001-306691']")
+//	WebElement Edit_VideoFile;
+	
+	
 
 	@FindBy(id="binV2")
 	WebElement Edit_Binarea;
@@ -75,7 +80,14 @@ public class ScreenerOutboxPage extends TestBase {
 	@FindBy(xpath="//*[@id='Yes1']")
 	WebElement AlertPop;
 	
+	@FindBy(xpath="//*[contains(@title,'request for extension')]")
+	WebElement RequestNewLinkIcon;	
+	
+	@FindBy(id="RequestComments")
+	WebElement RequestLinkCommentbox;
+	
 		
+	
 	public ScreenerOutboxPage()
 	{
 		PageFactory.initElements(driver,this);
@@ -145,6 +157,14 @@ public class ScreenerOutboxPage extends TestBase {
 		ManualSubmitButton.click();
 		
 	}
+	public void RequestNewLink(String RequestLinkComment) throws InterruptedException
+	{
+		Thread.sleep(3000);
+		RequestNewLinkIcon.click();
+		RequestLinkCommentbox.click();
+		RequestLinkCommentbox.sendKeys(RequestLinkComment);
+		
+	}
 	public void Deletepublish()
 	{
 		wait = new WebDriverWait(driver,10);
@@ -152,6 +172,7 @@ public class ScreenerOutboxPage extends TestBase {
 		DeletePublish.click();
 		AlertPop.click();
 	}
+	
 	
 
 }

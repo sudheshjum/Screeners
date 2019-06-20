@@ -15,6 +15,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Tasks')]")
 	WebElement Tasktab;
 	
+	@FindBy(xpath="//*[contains(@title,'Click to hide the navigation drawer')]")
+	WebElement LabelIcon;
+	
 	@FindBy(xpath="//*[@role='presentation'  and contains(@title ,'Screeners')]")
 	WebElement Screenertab;
 	
@@ -34,8 +37,20 @@ public class HomePage extends TestBase {
 	}
 	
 	public void  ClickonTask() throws InterruptedException {
-		Thread.sleep(3000);
-		Tasktab.click();
+		
+		boolean Label = LabelIcon.isDisplayed();
+		if(Label==true)
+		{
+			Thread.sleep(3000);
+			Tasktab.click();
+		}
+		else
+		{
+			LabelIcon.click();
+			Thread.sleep(3000);
+			Tasktab.click();
+		}
+
 	}
 	
 	public ScreenerInboxpage ClickonScreeners() throws InterruptedException {
